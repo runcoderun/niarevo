@@ -27,5 +27,5 @@ end
 group(:cucumber, :dependencies => :test) do |g|
   g.add('cucumber', :version => '0.4.3')
   g.add('webrat', :version => '0.5.3')
-  g.add('nokogiri', :version => '1.3.3')
+  g.add('nokogiri') # require no version, or require version => '1.4.0'
 end
